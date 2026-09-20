@@ -11,9 +11,9 @@ from pyrogram.types import Message
 from reportlab.graphics import renderPM
 from svglib.svglib import svg2rlg
 
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.helper.aiohttp_helper import AioHttp
-from Zaid.modules.help import add_command_help
+from Geto.helper.PyroHelpers import ReplyCheck
+from Geto.helper.aiohttp_helper import AioHttp
+from Geto.modules.help import add_command_help
 
 
 @Client.on_message(filters.command(["ggraph", "commitgraph"], ".") & filters.me)
