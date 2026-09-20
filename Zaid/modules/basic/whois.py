@@ -5,8 +5,8 @@ from pyrogram import Client, filters
 from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.modules.basic.profile import extract_user
+from Geto.helper.PyroHelpers import ReplyCheck
+from Geto.modules.basic.profile import extract_user
 
 from Zaid.modules.help import add_command_help
 
