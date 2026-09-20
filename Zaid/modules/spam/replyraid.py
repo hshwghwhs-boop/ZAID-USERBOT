@@ -62,12 +62,12 @@ async def pornspam(xspam: Client, e: Message):
     filters.command(["raid"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def raid(xspam: Client, e: Message):  
-      Zaid = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-      if len(Zaid) == 2:
-          counts = int(Zaid[0])
+      Geto = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+      if len(Geto) == 2:
+          counts = int(Geto[0])
           if int(e.chat.id) in GROUP:
                return await e.reply_text("**Sorry !! i Can't Spam Here.**")
-          ok = await xspam.get_users(Zaid[1])
+          ok = await xspam.get_users(Geto[1])
           id = ok.id
 #          try:
 #              userz = await xspam.get_users(id)
@@ -90,7 +90,7 @@ async def raid(xspam: Client, e: Message):
                     await asyncio.sleep(0.10)
       elif e.reply_to_message:
           msg_id = e.reply_to_message.from_user.id
-          counts = int(Zaid[0])
+          counts = int(Geto[0])
           if int(e.chat.id) in GROUP:
                return await e.reply_text("**Sorry !! i Can't Spam Here.**")
           user_id = e.reply_to_message.from_user.id
