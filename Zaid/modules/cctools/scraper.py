@@ -3,7 +3,7 @@ from re import findall
 
 from pyrogram import Client, filters
 
-from Zaid import SUDO_USER
+from Geto import SUDO_USER
 
 
 _SCRTXT = """
@@ -16,7 +16,7 @@ _SCRTXT = """
 
 
 🥷 **Scrapped By ->** {}
-👨‍🎤 **Developed By ->** @TheUpdatesChannel 🐲
+👨‍🎤 **Developed By ->** @ABOUT_GETO🐲
 """
 
 
