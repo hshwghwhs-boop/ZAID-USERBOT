@@ -6,9 +6,9 @@ from pyrogram import Client, filters
 from pyrogram.raw import functions
 from pyrogram.types import Message
 
-from Zaid import StartTime, app, SUDO_USER
-from Zaid.helper.PyroHelpers import SpeedConvert
-from Zaid.modules.bot.inline import get_readable_time
+from Geto import StartTime, app, SUDO_USER
+from Geto.helper.PyroHelpers import SpeedConvert
+from Geto.modules.bot.inline import get_readable_time
 
 from Zaid.modules.help import add_command_help
 
