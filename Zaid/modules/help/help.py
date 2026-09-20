@@ -4,9 +4,9 @@ from prettytable import PrettyTable
 from pyrogram import Client, enums, filters
 from pyrogram.types import Message
 
-from Zaid import app, CMD_HELP
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.helper.utility import split_list
+from Geto import app, CMD_HELP
+from Geto.helper.PyroHelpers import ReplyCheck
+from Geto.helper.utility import split_list
 
 
 async def edit_or_reply(message: Message, *args, **kwargs) -> Message:
