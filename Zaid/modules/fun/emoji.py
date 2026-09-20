@@ -6,7 +6,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 
 
-from Zaid.modules.help import add_command_help
+from Geto.modules.help import add_command_help
 
 emojis = {
     "moon": list("🌗🌘🌑🌒🌓🌔🌕🌖"),
