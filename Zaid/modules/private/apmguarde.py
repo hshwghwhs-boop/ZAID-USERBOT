@@ -1,7 +1,7 @@
 from pyrogram import filters, Client
 import asyncio
-from Zaid import SUDO_USER
-from Zaid.modules.help import *
+from Geto import SUDO_USER
+from Geto.modules.help import *
 from pyrogram.methods import messages
 from .pmguard import get_arg, denied_users
 
