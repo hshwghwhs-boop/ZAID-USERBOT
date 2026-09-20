@@ -1,1 +1,1 @@
-from Zaid.modules.help.help import *
+from Geto.modules.help.help import *
