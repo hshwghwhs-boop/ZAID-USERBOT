@@ -1,4 +1,4 @@
-from Zaid.database import cli
+from Geto.database import cli
 import asyncio
 
 collection = cli["ɢᴇᴛᴏ"]["pmpermit"]
