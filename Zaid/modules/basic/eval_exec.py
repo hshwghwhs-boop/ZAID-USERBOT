@@ -7,8 +7,8 @@ import traceback
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from Zaid.database import cli as database
-from Zaid.helper.PyroHelpers import ReplyCheck
+from Geto.database import cli as database
+from Geto.helper.PyroHelpers import ReplyCheck
 
 
 @Client.on_message(
