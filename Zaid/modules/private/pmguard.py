@@ -4,7 +4,7 @@ from pyrogram.types import Message
 
 from pyrogram.methods import messages
 from Zaid.database.pmpermitdb import get_approved_users, pm_guard
-import Zaid.database.pmpermitdb as Zaid
+import Geto.database.pmpermitdb as Zaid
 from config import LOG_GROUP, PM_LOGGER
 FLOOD_CTRL = 0
 ALLOWED = []
