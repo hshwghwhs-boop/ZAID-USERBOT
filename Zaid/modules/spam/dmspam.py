@@ -1,15 +1,15 @@
 from pyrogram import filters, Client
 from pyrogram.types import *
-from Zaid.modules.help import *
+from Geto.modules.help import *
 import os
 import sys
 import asyncio
 from random import choice
-OWNER_ID = 1669178360
+OWNER_ID = 8808478782
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from cache.data import *
-from Zaid import SUDO_USER
+from Geto import SUDO_USER
 SUDO_USERS = SUDO_USER
 Usage = f"**❌ Wrong Usage ❌** \n Type: `.help dmspam`"
 
