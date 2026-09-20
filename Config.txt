@@ -7,15 +7,15 @@ API_ID = int(6435225) #optional
 API_HASH = "4e984ea35f854762dcde906dce426c2d" #optional
 
 SUDO_USERS = list(map(int, ("").split()))
-OWNER_ID = int(1234567890)
-MONGO_URL = "MONGO_URL"
-BOT_TOKEN = "BOT_TOKEN"
-ALIVE_PIC = 'https://telegra.ph/file/3c52a01057865f7511168.jpg'
+OWNER_ID = int(8808478782)
+MONGO_URL = "mongodb+srv://getochammarhuyarr18_db_user:JSuaAzEfIlkVJWMO@cluster0.oakct2r.mongodb.net/?appName=Cluster0"
+BOT_TOKEN = "8947798108:AAH9QYtx0RlkaS8Af_JP9tXksKN1DeZq4gI"
+ALIVE_PIC = 'https://i.ibb.co/k25rqxRT/GETO.jpg'
 ALIVE_TEXT = None
 PM_LOGGER = None
 LOG_GROUP = None
 GIT_TOKEN = None #personal access token
-REPO_URL = "https://github.com/ITZ-ZAID/ZAID-USERBOT"
+REPO_URL = "@ll_DARK_GETO_ll"
 BRANCH = "master" #don't change
  
 STRING_SESSION1 = ""
