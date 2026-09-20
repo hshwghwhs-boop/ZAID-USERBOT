@@ -5,26 +5,26 @@ from platform import python_version
 from pyrogram import __version__, filters, Client
 from pyrogram.types import Message
 from config import ALIVE_PIC, ALIVE_TEXT
-from Zaid import START_TIME
-from Zaid import SUDO_USER
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.modules.help import add_command_help
-from Zaid.modules.bot.inline import get_readable_time
+from Geto import START_TIME
+from Geto import SUDO_USER
+from Geto.helper.PyroHelpers import ReplyCheck
+from Geto.modules.help import add_command_help
+from Geto.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://telegra.ph/file/cc0890d0876bc18c19e05.jpg"
+alive_logo = ALIVE_PIC or "https://i.ibb.co/gLYsd6YW/Screenshot-20260920-221634-Chat-GPT.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ✘ zαι∂ υѕєявσт ✘**\n\n"
+        f"** ✘ ɠєтσ υѕєявσт ✘**\n\n"
         f"❏ **νєяѕισи**: `2.1`\n"
         f"├• **υρтιмє**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **ρутнσи**: `{python_version()}`\n"
         f"├• **ρуяσgяαм**: `{__version__}`\n"
-        f"├• **ѕυρρσят**: [Click](t.me/TheSupportChat)\n"
-        f"├• **¢нαииєℓ**: [Click](t.me/TheUpdatesChannel)\n"
-        f"└• **яєρσ**: [Click](https://GitHub.com/itz-zaid/Zaid-Userbot)"        
+        f"├• **ѕυρρσят**: [Click](t.me/+hp2bEQ4WBNBjMWQ1)\n"
+        f"├• **¢нαииєℓ**: [Click](t.me/ABOUT_GETO)\n"
+        f"└• **яєρσ**: [Click](https://t.me/ll_DARK_GETO_ll)"        
     )
 
 @Client.on_message(
